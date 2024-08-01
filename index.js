@@ -10,7 +10,7 @@ function increment(){
 function save(){
    
     total+=count
-    paragraph.textContent=' Total people :'+total
+    paragraph.textContent=' Total Visitors :'+total
    
     count=0
     persons.textContent=count
