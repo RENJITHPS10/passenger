@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+
+    text-align: center;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+        url('https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.container {
+    
+    margin: auto;
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0)),
+        url('https://images.pexels.com/photos/1795985/pexels-photo-1795985.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    height: 90%;
+    width: 500px;
+    border-radius: 30px;
+    padding-top: 20px;
+    color: white;
+    margin-top: 50px;
+
+}
+
+
+
+.container h1 {
+    padding-top: 130px;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.container h2 {
+    margin: 20px 0;
+    font-size: 40px;
+
+}
+
+.container button {
+    width: 400px;
+    height: 10%;
+    color: white;
+    font-size: 30px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 10px 0;
+    cursor: pointer;
+
+
+}
+
+#increment {
+    background: darkred;
+}
+
+#increment:active {
+    background-color: red;
+}
+
+#save {
+    background: darkgreen;
+}
+
+#save:active {
+    background-color: green;
+}
+.container p{
+    font-size: 35px;
+    font-weight: bold;
+}
